@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 7, Errors: 0, Skipped: 1, Time elapsed: 3.181 sec <<< FAILURE! - in TestSuite
+GetBowCashLogInInfo(com.fanbei.borrowCash.GetConfirmBorrowInfoTest)  Time elapsed: 0.044 sec  <<< FAILURE!
+java.lang.AssertionError: expected [2008] but found [1117]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+
+GetBowCashLogInInfo(com.fanbei.borrowCash.GetConfirmBorrowInfoTest)  Time elapsed: 0.034 sec  <<< FAILURE!
+java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+
+GetBowCashLogInInfo(com.fanbei.borrowCash.GetConfirmBorrowInfoTest)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+
+GetBowCashLogInInfo(com.fanbei.borrowCash.GetConfirmBorrowInfoTest)  Time elapsed: 0.036 sec  <<< FAILURE!
+java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+
+GetBowCashLogInInfo(com.fanbei.borrowCash.GetConfirmBorrowInfoTest)  Time elapsed: 0.035 sec  <<< FAILURE!
+java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+
+GetBowCashLogInInfo(com.fanbei.borrowCash.ApplyBorrowCashV1Test)  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.ApplyBorrowCashV1Test.GetBowCashLogInInfo(ApplyBorrowCashV1Test.java:86)
+
+GetBowCashLogInInfo(com.fanbei.borrowCash.ApplyBorrowCashV1Test)  Time elapsed: 0.11 sec  <<< FAILURE!
+java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.ApplyBorrowCashV1Test.GetBowCashLogInInfo(ApplyBorrowCashV1Test.java:86)
+

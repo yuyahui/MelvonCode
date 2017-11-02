@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" preserve-order="true" >
+  <test name="com.fanbei.login">
+    <classes>
+      <class name="com.fanbei.login.UserLoginTest"/><!-- 登录 -->
+      <class name="com.fanbei.login.GetUserInfoTest"/><!-- 获取用户相关资料 -->
+      <class name="com.fanbei.login.UserGetMineInfoTest"/><!--获取我的信息页面 -->                    
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="com.fanbei.borrowCash">
+    <classes>
+      <class name="com.fanbei.borrowCash.GetBowCashLogInInfoTest"/><!-- 登录后借钱首页 -->
+      <class name="com.fanbei.borrowCash.GetConfirmBorrowInfoTest"/><!-- 借钱确认页面信息 -->
+      <class name="com.fanbei.borrowCash.ApplyBorrowCashV1Test"/><!--借款申请 -->   
+      <class name="com.fanbei.borrowCash.GetBorrowCashListTest"/><!--借款申请列表 -->   
+      <class name="com.fanbei.borrowCash.GetBorrowCashDetailTest"/><!--借款申请详情 -->   
+      <class name="com.fanbei.borrowCash.ApplyRenewalTest"/><!--申请续借 -->          
+      <class name="com.fanbei.borrowCash.ConfirmRenewalPayTest"/><!-- 续借确认付款--> 
+      <class name="com.fanbei.borrowCash.GetRenewalListTest"/><!-- 续借列表--> 
+      <class name="com.fanbei.borrowCash.GetRenewalDetailTest"/><!-- 续借详情-->                 
+    </classes>         
+  </test> <!-- Test -->
+  
+  <test name="com.fanbei.repayCash">
+    <classes>
+      <class name="com.fanbei.repayCash.GetConfirmRepayInfoTest"/><!-- 还款 -->                 
+    </classes>
+  </test> <!-- Test -->
+  
+   <listeners>  
+            <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />  
+    </listeners>
+</suite> <!-- Suite -->

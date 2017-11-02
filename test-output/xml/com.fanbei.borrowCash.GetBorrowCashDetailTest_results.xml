@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fanbei.borrowCash"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.275">
+  <properties />
+  
+  
+            <testcase name="getBorrowCashList" time="0.079" classname="com.fanbei.borrowCash.GetBorrowCashDetailTest" />
+                <testcase name="getBorrowCashList" time="0.089" classname="com.fanbei.borrowCash.GetBorrowCashDetailTest" />
+                <testcase name="getBorrowCashList" time="0.107" classname="com.fanbei.borrowCash.GetBorrowCashDetailTest" />
+      
+</testsuite>

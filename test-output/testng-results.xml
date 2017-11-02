@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="780" started-at="2017-09-12T06:56:51Z" finished-at="2017-09-12T06:56:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="780" started-at="2017-09-12T06:56:51Z" finished-at="2017-09-12T06:56:52Z">
+      <class name="com.fanbei.login.UserLoginTest">
+        <test-method status="PASS" signature="UserLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fanbei.login.UserLoginTest@8dae665]" name="UserLogin" duration-ms="602" started-at="2017-09-12T14:56:51Z" data-provider="ex" finished-at="2017-09-12T14:56:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13656648524]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dc483e80a7a0bd9ef71d8cf973673924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ios10.3.2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[07BB9C6D-D587-4638-B569-EC83BC99A99E]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="FAIL" signature="UserLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fanbei.login.UserLoginTest@8dae665]" name="UserLogin" duration-ms="49" started-at="2017-09-12T14:56:51Z" data-provider="ex" finished-at="2017-09-12T14:56:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13656648511]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dc483e80a7a0bd9ef71d8cf973673924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ios10.3.2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[07BB9C6D-D587-4638-B569-EC83BC99A99E]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1105]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[用户不存在]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1105] but found [1015]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1105] but found [1015]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.fanbei.login.UserLoginTest.UserLogin(UserLoginTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="FAIL" signature="UserLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fanbei.login.UserLoginTest@8dae665]" name="UserLogin" duration-ms="35" started-at="2017-09-12T14:56:51Z" data-provider="ex" finished-at="2017-09-12T14:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11013656648]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dc483e80a7a0bd9ef71d8cf973673924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ios10.3.2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[07BB9C6D-D587-4638-B569-EC83BC99A99E]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1105]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[用户不存在]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1105] but found [1015]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1105] but found [1015]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.fanbei.login.UserLoginTest.UserLogin(UserLoginTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="FAIL" signature="UserLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fanbei.login.UserLoginTest@8dae665]" name="UserLogin" duration-ms="40" started-at="2017-09-12T14:56:52Z" data-provider="ex" finished-at="2017-09-12T14:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1365664852]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dc483e80a7a0bd9ef71d8cf973673924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ios10.3.2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[07BB9C6D-D587-4638-B569-EC83BC99A99E]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1105]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[用户不存在]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1105] but found [1015]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1105] but found [1015]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.fanbei.login.UserLoginTest.UserLogin(UserLoginTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="FAIL" signature="UserLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fanbei.login.UserLoginTest@8dae665]" name="UserLogin" duration-ms="30" started-at="2017-09-12T14:56:52Z" data-provider="ex" finished-at="2017-09-12T14:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dc483e80a7a0bd9ef71d8cf973673924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ios10.3.2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[07BB9C6D-D587-4638-B569-EC83BC99A99E]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1005]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[用户不存在]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1005] but found [1015]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1005] but found [1015]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.fanbei.login.UserLoginTest.UserLogin(UserLoginTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="PASS" signature="endClass()[pri:0, instance:com.fanbei.login.UserLoginTest@8dae665]" name="endClass" is-config="true" duration-ms="1" started-at="2017-09-12T14:56:52Z" finished-at="2017-09-12T14:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClass -->
+      </class> <!-- com.fanbei.login.UserLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\SoftWares\workspace\testmavem\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 7 failed,  1 skipped,  25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 500, 14, , 1000, 成功)">GetBowCashLogInInfo(13656648524, 500, 14, , 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 5001.0, 7, , 2008, 借款金额超过可借金额，请下拉刷新后重新提交)">GetBowCashLogInInfo(13656648524, 5001.0, 7, , 2008, 借款金额超过可借金额，请下拉刷新后重新提交)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.ApplyBorrowCashV1Test" hash-for-method="GetBowCashLogInInfo(13656648524, 5000.0, 14, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, han...)">GetBowCashLogInInfo(13656648524, 5000.0, 14, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, han...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.ApplyBorrowCashV1Test" hash-for-method="GetBowCashLogInInfo(13656648524, 500, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hangzho...)">GetBowCashLogInInfo(13656648524, 500, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hangzho...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 4999.0, 7, , 1000, 成功)">GetBowCashLogInInfo(13656648524, 4999.0, 7, , 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 5000.0, 7, , 1000, 成功)">GetBowCashLogInInfo(13656648524, 5000.0, 7, , 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 500, 7, , 1000, 成功)">GetBowCashLogInInfo(13656648524, 500, 7, , 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetRenewalDetailTest" hash-for-method="getRenewalDetail">getRenewalDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648521, 500, 7, , 1000, 成功)">GetBowCashLogInInfo(13656648521, 500, 7, , 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648511, 500, 7, , 1005, 用户不存在)">GetBowCashLogInInfo(13656648511, 500, 7, , 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetBowCashLogInInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 1000, 成功)">GetBowCashLogInInfo(13656648524, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetBowCashLogInInfoTest" hash-for-method="GetBowCashLogInInfo(13656648521, 1000, 成功)">GetBowCashLogInInfo(13656648521, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(, 500, 7, , 1005, 用户不存在)">GetBowCashLogInInfo(, 500, 7, , 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetBowCashLogInInfoTest" hash-for-method="GetBowCashLogInInfo(, 1005, 用户不存在)">GetBowCashLogInInfo(, 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 1, 7, , 1117, 申请的金额无效)">GetBowCashLogInInfo(13656648524, 1, 7, , 1117, 申请的金额无效)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 5000.0, , , 2000, 借钱金额或者时间有误)">GetBowCashLogInInfo(13656648524, 5000.0, , , 2000, 借钱金额或者时间有误)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetConfirmBorrowInfoTest" hash-for-method="GetBowCashLogInInfo(13656648524, 0, 7, , 1117, 申请的金额无效)">GetBowCashLogInInfo(13656648524, 0, 7, , 1117, 申请的金额无效)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetBowCashLogInInfoTest" hash-for-method="GetBowCashLogInInfo(13656648511, 1005, 用户不存在)">GetBowCashLogInInfo(13656648511, 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.ApplyBorrowCashV1Test" hash-for-method="GetBowCashLogInInfo(13656648524, 5000.0, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hang...)">GetBowCashLogInInfo(13656648524, 5000.0, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hang...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.login.GetUserInfoTest" hash-for-method="GetUserInfo(13656648524, 1000, 成功)">GetUserInfo(13656648524, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.login.GetUserInfoTest" hash-for-method="GetUserInfo(13656648511, 1005, 用户不存在)">GetUserInfo(13656648511, 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.login.GetUserInfoTest" hash-for-method="GetUserInfo(, 1005, 用户不存在)">GetUserInfo(, 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.login.UserGetMineInfoTest" hash-for-method="UserGetMineInfo(13656648524, 1000, 成功)">UserGetMineInfo(13656648524, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.login.UserGetMineInfoTest" hash-for-method="UserGetMineInfo(13656648511, 1005, 用户不存在)">UserGetMineInfo(13656648511, 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.login.UserGetMineInfoTest" hash-for-method="UserGetMineInfo(, 1005, 用户不存在)">UserGetMineInfo(, 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.login.UserLoginTest" hash-for-method="UserLogin(17612158083, 22368c8d5f71b23b9e33e61a5e02c4bc, ios10.3.2, iPhone, 07BB9C6D-D587-4638-B569-EC83BC99A9...)">UserLogin(17612158083, 22368c8d5f71b23b9e33e61a5e02c4bc, ios10.3.2, iPhone, 07BB9C6D-D587-4638-B569-EC83BC99A9...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.ApplyRenewalTest" hash-for-method="applyRenewal(1258099, 1000, 成功)">applyRenewal(1258099, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.ConfirmRenewalPayTest" hash-for-method="confirmRenewalPay(13656648524, 1258099, 1, 1, e10adc3949ba59abbe56e057f20f883e, -2, 1128, 无可续期的订单)">confirmRenewalPay(13656648524, 1258099, 1, 1, e10adc3949ba59abbe56e057f20f883e, -2, 1128, 无可续期的订单)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetBorrowCashDetailTest" hash-for-method="getBorrowCashList(1258099, 1000, 成功)">getBorrowCashList(1258099, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetBorrowCashListTest" hash-for-method="getBorrowCashList(13656648577, 1, 1005, 用户不存在)">getBorrowCashList(13656648577, 1, 1005, 用户不存在)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetBorrowCashListTest" hash-for-method="getBorrowCashList(13656648524, 1, 1000, 成功)">getBorrowCashList(13656648524, 1, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetRenewalListTest" hash-for-method="getRenewalList(13656648521, 1000, 成功)">getRenewalList(13656648521, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.fanbei.borrowCash.GetRenewalListTest" hash-for-method="getRenewalList(1258099, 1000, 成功)">getRenewalList(1258099, 1000, 成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.GetConfirmBorrowInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 500, 14, , 1000, 成功)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 500, 14, , 1000, 成功) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 500, 14, , 1000, 成功)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 5001.0, 7, , 2008, 借款金额超过可借金额，请下拉刷新后重新提交)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 5001.0, 7, , 2008, 借款金额超过可借金额，请下拉刷新后重新提交) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 5001.0, 7, , 2008, 借款金额超过可借金额，请下拉刷新后重新提交)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2008] but found [1117]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 4999.0, 7, , 1000, 成功)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 4999.0, 7, , 1000, 成功) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 4999.0, 7, , 1000, 成功)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 5000.0, 7, , 1000, 成功)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 5000.0, 7, , 1000, 成功) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 5000.0, 7, , 1000, 成功)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 500, 7, , 1000, 成功)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 500, 7, , 1000, 成功) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 500, 7, , 1000, 成功)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.GetConfirmBorrowInfoTest.GetBowCashLogInInfo(GetConfirmBorrowInfoTest.java:71)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.ApplyBorrowCashV1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 5000.0, 14, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, han...)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 5000.0, 14, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, han...) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 5000.0, 14, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hangzhoushi, binjiangqujianglinglu, ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0, 1000, 成功)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.ApplyBorrowCashV1Test.GetBowCashLogInInfo(ApplyBorrowCashV1Test.java:86)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 500, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hangzho...)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 500, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hangzho...) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 500, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hangzhoushi, binjiangqujianglinglu, ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0, 1000, 成功)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1000] but found [2001]
+	at com.fanbei.borrowCash.ApplyBorrowCashV1Test.GetBowCashLogInInfo(ApplyBorrowCashV1Test.java:86)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.fanbei.borrowCash.GetRenewalDetailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRenewalDetail">
+                  </a> <!-- getRenewalDetail -->
+                  <span class="method-name">getRenewalDetail</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+Caused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at net.sf.json.JSONArray.get(JSONArray.java:1886)
+	at net.sf.json.JSONArray.getJSONObject(JSONArray.java:1975)
+	at com.fanbei.until.getRenewalld.getRenewalList(getRenewalld.java:37)
+	at com.fanbei.borrowCash.GetRenewalDetailTest.Parameter(GetRenewalDetailTest.java:31)
+	... 23 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.GetBorrowCashDetailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBorrowCashList(1258099, 1000, 成功)">
+                  </a> <!-- getBorrowCashList(1258099, 1000, 成功) -->
+                  <span class="method-name">getBorrowCashList</span>
+                  <span class="parameters">(1258099, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.GetConfirmBorrowInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648521, 500, 7, , 1000, 成功)">
+                  </a> <!-- GetBowCashLogInInfo(13656648521, 500, 7, , 1000, 成功) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648521, 500, 7, , 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648511, 500, 7, , 1005, 用户不存在)">
+                  </a> <!-- GetBowCashLogInInfo(13656648511, 500, 7, , 1005, 用户不存在) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648511, 500, 7, , 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(, 500, 7, , 1005, 用户不存在)">
+                  </a> <!-- GetBowCashLogInInfo(, 500, 7, , 1005, 用户不存在) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(, 500, 7, , 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 1, 7, , 1117, 申请的金额无效)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 1, 7, , 1117, 申请的金额无效) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 1, 7, , 1117, 申请的金额无效)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 5000.0, , , 2000, 借钱金额或者时间有误)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 5000.0, , , 2000, 借钱金额或者时间有误) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 5000.0, , , 2000, 借钱金额或者时间有误)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 0, 7, , 1117, 申请的金额无效)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 0, 7, , 1117, 申请的金额无效) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 0, 7, , 1117, 申请的金额无效)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.ApplyRenewalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyRenewal(1258099, 1000, 成功)">
+                  </a> <!-- applyRenewal(1258099, 1000, 成功) -->
+                  <span class="method-name">applyRenewal</span>
+                  <span class="parameters">(1258099, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.GetRenewalListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRenewalList(13656648521, 1000, 成功)">
+                  </a> <!-- getRenewalList(13656648521, 1000, 成功) -->
+                  <span class="method-name">getRenewalList</span>
+                  <span class="parameters">(13656648521, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRenewalList(1258099, 1000, 成功)">
+                  </a> <!-- getRenewalList(1258099, 1000, 成功) -->
+                  <span class="method-name">getRenewalList</span>
+                  <span class="parameters">(1258099, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.login.UserLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserLogin(17612158083, 22368c8d5f71b23b9e33e61a5e02c4bc, ios10.3.2, iPhone, 07BB9C6D-D587-4638-B569-EC83BC99A9...)">
+                  </a> <!-- UserLogin(17612158083, 22368c8d5f71b23b9e33e61a5e02c4bc, ios10.3.2, iPhone, 07BB9C6D-D587-4638-B569-EC83BC99A9...) -->
+                  <span class="method-name">UserLogin</span>
+                  <span class="parameters">(17612158083, 22368c8d5f71b23b9e33e61a5e02c4bc, ios10.3.2, iPhone, 07BB9C6D-D587-4638-B569-EC83BC99A99E, ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.GetBorrowCashListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBorrowCashList(13656648577, 1, 1005, 用户不存在)">
+                  </a> <!-- getBorrowCashList(13656648577, 1, 1005, 用户不存在) -->
+                  <span class="method-name">getBorrowCashList</span>
+                  <span class="parameters">(13656648577, 1, 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBorrowCashList(13656648524, 1, 1000, 成功)">
+                  </a> <!-- getBorrowCashList(13656648524, 1, 1000, 成功) -->
+                  <span class="method-name">getBorrowCashList</span>
+                  <span class="parameters">(13656648524, 1, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.ConfirmRenewalPayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmRenewalPay(13656648524, 1258099, 1, 1, e10adc3949ba59abbe56e057f20f883e, -2, 1128, 无可续期的订单)">
+                  </a> <!-- confirmRenewalPay(13656648524, 1258099, 1, 1, e10adc3949ba59abbe56e057f20f883e, -2, 1128, 无可续期的订单) -->
+                  <span class="method-name">confirmRenewalPay</span>
+                  <span class="parameters">(13656648524, 1258099, 1, 1, e10adc3949ba59abbe56e057f20f883e, -2, 1128, 无可续期的订单)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.login.UserGetMineInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserGetMineInfo(13656648524, 1000, 成功)">
+                  </a> <!-- UserGetMineInfo(13656648524, 1000, 成功) -->
+                  <span class="method-name">UserGetMineInfo</span>
+                  <span class="parameters">(13656648524, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserGetMineInfo(13656648511, 1005, 用户不存在)">
+                  </a> <!-- UserGetMineInfo(13656648511, 1005, 用户不存在) -->
+                  <span class="method-name">UserGetMineInfo</span>
+                  <span class="parameters">(13656648511, 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserGetMineInfo(, 1005, 用户不存在)">
+                  </a> <!-- UserGetMineInfo(, 1005, 用户不存在) -->
+                  <span class="method-name">UserGetMineInfo</span>
+                  <span class="parameters">(, 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.ApplyBorrowCashV1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 5000.0, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hang...)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 5000.0, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hang...) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 5000.0, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hangzhoushi, binjiangqujianglinglu, ewogICJ0b2tlbklkIiA6ICJUWXh2UzNZYUprQTNVZWF4eDhEU0JIanlabGNiMWhhNXUybTRVTENCWEtwTHFZMks2QmlvMjB3ZlNZNEJNd1krbTROcGNKSm9IYUkzZ2VLMEd1ZG9ldz09IiwKICAib3MiIDogImlPUyIsCiAgInByb2ZpbGVUaW1lIiA6IDc3OSwKICAidmVyc2lvbiIgOiAiMi4xLjUiCn0, 2001, 您有一笔未结清账单)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.borrowCash.GetBowCashLogInInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648524, 1000, 成功)">
+                  </a> <!-- GetBowCashLogInInfo(13656648524, 1000, 成功) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648524, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648521, 1000, 成功)">
+                  </a> <!-- GetBowCashLogInInfo(13656648521, 1000, 成功) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648521, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(, 1005, 用户不存在)">
+                  </a> <!-- GetBowCashLogInInfo(, 1005, 用户不存在) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(, 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBowCashLogInInfo(13656648511, 1005, 用户不存在)">
+                  </a> <!-- GetBowCashLogInInfo(13656648511, 1005, 用户不存在) -->
+                  <span class="method-name">GetBowCashLogInInfo</span>
+                  <span class="parameters">(13656648511, 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fanbei.login.GetUserInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetUserInfo(13656648524, 1000, 成功)">
+                  </a> <!-- GetUserInfo(13656648524, 1000, 成功) -->
+                  <span class="method-name">GetUserInfo</span>
+                  <span class="parameters">(13656648524, 1000, 成功)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetUserInfo(13656648511, 1005, 用户不存在)">
+                  </a> <!-- GetUserInfo(13656648511, 1005, 用户不存在) -->
+                  <span class="method-name">GetUserInfo</span>
+                  <span class="parameters">(13656648511, 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetUserInfo(, 1005, 用户不存在)">
+                  </a> <!-- GetUserInfo(, 1005, 用户不存在) -->
+                  <span class="method-name">GetUserInfo</span>
+                  <span class="parameters">(, 1005, 用户不存在)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SoftWares\workspace\testmavem\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;com.fanbei.login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fanbei.login.UserLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.login.GetUserInfoTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.login.UserGetMineInfoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- com.fanbei.login --&gt;
+  &lt;test name=&quot;com.fanbei.borrowCash&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.GetBowCashLogInInfoTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.GetConfirmBorrowInfoTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.ApplyBorrowCashV1Test&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.GetBorrowCashListTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.GetBorrowCashDetailTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.ApplyRenewalTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.ConfirmRenewalPayTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.GetRenewalListTest&quot;/&gt;
+      &lt;class name=&quot;com.fanbei.borrowCash.GetRenewalDetailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- com.fanbei.borrowCash --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">com.fanbei.login (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">com.fanbei.borrowCash (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UserLogin')
+data.setCell(0, 2, 'com.fanbei.login.UserLoginTest')
+data.setCell(0, 3, 599);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UserGetMineInfo')
+data.setCell(1, 2, 'com.fanbei.login.UserGetMineInfoTest')
+data.setCell(1, 3, 117);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GetBowCashLogInInfo')
+data.setCell(2, 2, 'com.fanbei.borrowCash.ApplyBorrowCashV1Test')
+data.setCell(2, 3, 110);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GetUserInfo')
+data.setCell(3, 2, 'com.fanbei.login.GetUserInfoTest')
+data.setCell(3, 3, 108);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'GetBowCashLogInInfo')
+data.setCell(4, 2, 'com.fanbei.borrowCash.GetBowCashLogInInfoTest')
+data.setCell(4, 3, 81);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'GetBowCashLogInInfo')
+data.setCell(5, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(5, 3, 77);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GetBowCashLogInInfo')
+data.setCell(6, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(6, 3, 69);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'GetBowCashLogInInfo')
+data.setCell(7, 2, 'com.fanbei.borrowCash.GetBowCashLogInInfoTest')
+data.setCell(7, 3, 69);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'GetBowCashLogInInfo')
+data.setCell(8, 2, 'com.fanbei.borrowCash.ApplyBorrowCashV1Test')
+data.setCell(8, 3, 47);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'GetBowCashLogInInfo')
+data.setCell(9, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(9, 3, 46);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'GetBowCashLogInInfo')
+data.setCell(10, 2, 'com.fanbei.borrowCash.ApplyBorrowCashV1Test')
+data.setCell(10, 3, 43);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'GetBowCashLogInInfo')
+data.setCell(11, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(11, 3, 42);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'GetBowCashLogInInfo')
+data.setCell(12, 2, 'com.fanbei.borrowCash.GetBowCashLogInInfoTest')
+data.setCell(12, 3, 38);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'UserGetMineInfo')
+data.setCell(13, 2, 'com.fanbei.login.UserGetMineInfoTest')
+data.setCell(13, 3, 37);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'GetBowCashLogInInfo')
+data.setCell(14, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(14, 3, 37);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'GetBowCashLogInInfo')
+data.setCell(15, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(15, 3, 36);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'applyRenewal')
+data.setCell(16, 2, 'com.fanbei.borrowCash.ApplyRenewalTest')
+data.setCell(16, 3, 35);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'confirmRenewalPay')
+data.setCell(17, 2, 'com.fanbei.borrowCash.ConfirmRenewalPayTest')
+data.setCell(17, 3, 34);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'GetBowCashLogInInfo')
+data.setCell(18, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(18, 3, 34);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'GetBowCashLogInInfo')
+data.setCell(19, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(19, 3, 34);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getBorrowCashList')
+data.setCell(20, 2, 'com.fanbei.borrowCash.GetBorrowCashDetailTest')
+data.setCell(20, 3, 33);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'GetBowCashLogInInfo')
+data.setCell(21, 2, 'com.fanbei.borrowCash.GetBowCashLogInInfoTest')
+data.setCell(21, 3, 33);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'getBorrowCashList')
+data.setCell(22, 2, 'com.fanbei.borrowCash.GetBorrowCashListTest')
+data.setCell(22, 3, 33);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'GetUserInfo')
+data.setCell(23, 2, 'com.fanbei.login.GetUserInfoTest')
+data.setCell(23, 3, 32);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getRenewalList')
+data.setCell(24, 2, 'com.fanbei.borrowCash.GetRenewalListTest')
+data.setCell(24, 3, 31);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'GetBowCashLogInInfo')
+data.setCell(25, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(25, 3, 31);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'UserGetMineInfo')
+data.setCell(26, 2, 'com.fanbei.login.UserGetMineInfoTest')
+data.setCell(26, 3, 30);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getBorrowCashList')
+data.setCell(27, 2, 'com.fanbei.borrowCash.GetBorrowCashListTest')
+data.setCell(27, 3, 30);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'GetUserInfo')
+data.setCell(28, 2, 'com.fanbei.login.GetUserInfoTest')
+data.setCell(28, 3, 29);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'GetBowCashLogInInfo')
+data.setCell(29, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(29, 3, 29);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'GetBowCashLogInInfo')
+data.setCell(30, 2, 'com.fanbei.borrowCash.GetConfirmBorrowInfoTest')
+data.setCell(30, 3, 28);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getRenewalList')
+data.setCell(31, 2, 'com.fanbei.borrowCash.GetRenewalListTest')
+data.setCell(31, 3, 27);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'getRenewalDetail')
+data.setCell(32, 2, 'com.fanbei.borrowCash.GetRenewalDetailTest')
+data.setCell(32, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.login.UserLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserLogin(17612158083, 22368c8d5f71b23b9e33e61a5e02c4bc, ios10.3.2, iPhone, 07BB9C6D-D587-4638-B569-EC83BC99A9...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.login.GetUserInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GetUserInfo(13656648524, 1000, 成功)</span>
+                <span class="method-start">600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetUserInfo(13656648511, 1005, 用户不存在)</span>
+                <span class="method-start">709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetUserInfo(, 1005, 用户不存在)</span>
+                <span class="method-start">741 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.login.UserGetMineInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserGetMineInfo(13656648524, 1000, 成功)</span>
+                <span class="method-start">773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UserGetMineInfo(13656648511, 1005, 用户不存在)</span>
+                <span class="method-start">890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UserGetMineInfo(, 1005, 用户不存在)</span>
+                <span class="method-start">928 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.borrowCash.GetBowCashLogInInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 1000, 成功)</span>
+                <span class="method-start">975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648521, 1000, 成功)</span>
+                <span class="method-start">1044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648511, 1005, 用户不存在)</span>
+                <span class="method-start">1126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(, 1005, 用户不存在)</span>
+                <span class="method-start">1159 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.borrowCash.GetConfirmBorrowInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 5001.0, 7, , 2008, 借款金额超过可借金额，请下拉刷新后重新提交)</span>
+                <span class="method-start">1437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 1, 7, , 1117, 申请的金额无效)</span>
+                <span class="method-start">1480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 0, 7, , 1117, 申请的金额无效)</span>
+                <span class="method-start">1510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 5000.0, , , 2000, 借钱金额或者时间有误)</span>
+                <span class="method-start">1541 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648521, 500, 7, , 1000, 成功)</span>
+                <span class="method-start">1583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648511, 500, 7, , 1005, 用户不存在)</span>
+                <span class="method-start">1660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(, 500, 7, , 1005, 用户不存在)</span>
+                <span class="method-start">1729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 4999.0, 7, , 1000, 成功)</span>
+                <span class="method-start">1758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 5000.0, 7, , 1000, 成功)</span>
+                <span class="method-start">1792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 500, 14, , 1000, 成功)</span>
+                <span class="method-start">1838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 500, 7, , 1000, 成功)</span>
+                <span class="method-start">1874 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.borrowCash.ApplyBorrowCashV1Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 500, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hangzho...)</span>
+                <span class="method-start">2014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 5000.0, 14, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, han...)</span>
+                <span class="method-start">2061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetBowCashLogInInfo(13656648524, 5000.0, 7, e10adc3949ba59abbe56e057f20f883e, 30.213563, 120.213831, zhejiangsheng, hang...)</span>
+                <span class="method-start">2171 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.borrowCash.GetBorrowCashListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getBorrowCashList(13656648524, 1, 1000, 成功)</span>
+                <span class="method-start">2215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getBorrowCashList(13656648577, 1, 1005, 用户不存在)</span>
+                <span class="method-start">2249 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.borrowCash.GetBorrowCashDetailTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getBorrowCashList(1258099, 1000, 成功)</span>
+                <span class="method-start">2314 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.borrowCash.ApplyRenewalTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">applyRenewal(1258099, 1000, 成功)</span>
+                <span class="method-start">2385 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.borrowCash.ConfirmRenewalPayTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">confirmRenewalPay(13656648524, 1258099, 1, 1, e10adc3949ba59abbe56e057f20f883e, -2, 1128, 无可续期的订单)</span>
+                <span class="method-start">2452 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fanbei.borrowCash.GetRenewalListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getRenewalList(1258099, 1000, 成功)</span>
+                <span class="method-start">2518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRenewalList(13656648521, 1000, 成功)</span>
+                <span class="method-start">2549 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

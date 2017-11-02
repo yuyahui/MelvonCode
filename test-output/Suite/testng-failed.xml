@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="com.fanbei.login(failed)">
+    <classes>
+      <class name="com.fanbei.borrowCash.GetBorrowCashListTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBorrowCashListTest -->
+      <class name="com.fanbei.login.UserLoginTest">
+        <methods>
+          <include name="endClass"/>
+          <include name="UserLogin" invocation-numbers="1 2 3 4"/>
+        </methods>
+      </class> <!-- com.fanbei.login.UserLoginTest -->
+      <class name="com.fanbei.borrowCash.GetBorrowCashDetailTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBorrowCashDetailTest -->
+      <class name="com.fanbei.borrowCash.GetRenewalListTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetRenewalListTest -->
+      <class name="com.fanbei.login.GetUserInfoTest">
+        <methods>
+          <include name="endClass"/>
+          <include name="GetUserInfo" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.fanbei.login.GetUserInfoTest -->
+      <class name="com.fanbei.repayCash.GetConfirmRepayInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.repayCash.GetConfirmRepayInfoTest -->
+      <class name="com.fanbei.borrowCash.ConfirmRenewalPayTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.ConfirmRenewalPayTest -->
+      <class name="com.fanbei.login.UserGetMineInfoTest">
+        <methods>
+          <include name="endClass"/>
+          <include name="UserGetMineInfo" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.fanbei.login.UserGetMineInfoTest -->
+      <class name="com.fanbei.borrowCash.GetConfirmBorrowInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetConfirmBorrowInfoTest -->
+      <class name="com.fanbei.borrowCash.GetRenewalDetailTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetRenewalDetailTest -->
+      <class name="com.fanbei.borrowCash.ApplyBorrowCashV1Test">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.ApplyBorrowCashV1Test -->
+      <class name="com.fanbei.borrowCash.GetBowCashLogInInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBowCashLogInInfoTest -->
+    </classes>
+  </test> <!-- com.fanbei.login(failed) -->
+  <test name="com.fanbei.borrowCash(failed)">
+    <classes>
+      <class name="com.fanbei.borrowCash.GetBorrowCashListTest">
+        <methods>
+          <include name="getBorrowCashList" invocation-numbers="1"/>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBorrowCashListTest -->
+      <class name="com.fanbei.login.UserLoginTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.login.UserLoginTest -->
+      <class name="com.fanbei.borrowCash.GetBorrowCashDetailTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBorrowCashDetailTest -->
+      <class name="com.fanbei.borrowCash.GetRenewalListTest">
+        <methods>
+          <include name="endClass"/>
+          <include name="getRenewalList" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetRenewalListTest -->
+      <class name="com.fanbei.login.GetUserInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.login.GetUserInfoTest -->
+      <class name="com.fanbei.repayCash.GetConfirmRepayInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.repayCash.GetConfirmRepayInfoTest -->
+      <class name="com.fanbei.login.UserGetMineInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.login.UserGetMineInfoTest -->
+      <class name="com.fanbei.borrowCash.ConfirmRenewalPayTest">
+        <methods>
+          <include name="confirmRenewalPay" invocation-numbers="0"/>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.ConfirmRenewalPayTest -->
+      <class name="com.fanbei.borrowCash.GetRenewalDetailTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetRenewalDetailTest -->
+      <class name="com.fanbei.borrowCash.GetConfirmBorrowInfoTest">
+        <methods>
+          <include name="getConfirmBorrowInfo" invocation-numbers="0 5 6"/>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetConfirmBorrowInfoTest -->
+      <class name="com.fanbei.borrowCash.ApplyBorrowCashV1Test">
+        <methods>
+          <include name="applyBorrowCashV1" invocation-numbers="0 3"/>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.ApplyBorrowCashV1Test -->
+      <class name="com.fanbei.borrowCash.GetBowCashLogInInfoTest">
+        <methods>
+          <include name="GetBowCashLogInInfo" invocation-numbers="2 3"/>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBowCashLogInInfoTest -->
+    </classes>
+  </test> <!-- com.fanbei.borrowCash(failed) -->
+  <test name="com.fanbei.repayCash(failed)">
+    <classes>
+      <class name="com.fanbei.borrowCash.GetBorrowCashListTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBorrowCashListTest -->
+      <class name="com.fanbei.login.UserLoginTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.login.UserLoginTest -->
+      <class name="com.fanbei.borrowCash.GetBorrowCashDetailTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBorrowCashDetailTest -->
+      <class name="com.fanbei.borrowCash.GetRenewalListTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetRenewalListTest -->
+      <class name="com.fanbei.login.GetUserInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.login.GetUserInfoTest -->
+      <class name="com.fanbei.login.UserGetMineInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.login.UserGetMineInfoTest -->
+      <class name="com.fanbei.borrowCash.ConfirmRenewalPayTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.ConfirmRenewalPayTest -->
+      <class name="com.fanbei.repayCash.GetConfirmRepayInfoTest">
+        <methods>
+          <include name="endClass"/>
+          <include name="confirmRepay" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- com.fanbei.repayCash.GetConfirmRepayInfoTest -->
+      <class name="com.fanbei.borrowCash.GetConfirmBorrowInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetConfirmBorrowInfoTest -->
+      <class name="com.fanbei.borrowCash.GetRenewalDetailTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetRenewalDetailTest -->
+      <class name="com.fanbei.borrowCash.ApplyBorrowCashV1Test">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.ApplyBorrowCashV1Test -->
+      <class name="com.fanbei.borrowCash.GetBowCashLogInInfoTest">
+        <methods>
+          <include name="endClass"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetBowCashLogInInfoTest -->
+    </classes>
+  </test> <!-- com.fanbei.repayCash(failed) -->
+</suite> <!-- Failed suite [Suite] -->

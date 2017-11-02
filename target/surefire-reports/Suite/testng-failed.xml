@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="com.fanbei.borrowCash(failed)">
+    <classes>
+      <class name="com.fanbei.borrowCash.GetRenewalDetailTest">
+        <methods>
+          <include name="getRenewalDetail"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetRenewalDetailTest -->
+      <class name="com.fanbei.borrowCash.GetConfirmBorrowInfoTest">
+        <methods>
+          <include name="GetBowCashLogInInfo" invocation-numbers="0 7 8 9 10"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.GetConfirmBorrowInfoTest -->
+      <class name="com.fanbei.borrowCash.ApplyBorrowCashV1Test">
+        <methods>
+          <include name="GetBowCashLogInInfo" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.fanbei.borrowCash.ApplyBorrowCashV1Test -->
+    </classes>
+  </test> <!-- com.fanbei.borrowCash(failed) -->
+</suite> <!-- Failed suite [Suite] -->
